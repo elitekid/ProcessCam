@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/qt/qml/processcam">
+        <file>main.qml</file>
+        <file>colordialog.qml</file>
+    </qresource>
+</RCC>

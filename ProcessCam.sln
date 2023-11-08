@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34202.233
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ProcessCam", "ProcessCam.vcxproj", "{0DE598B3-821D-424B-A37A-35892AD17E6D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "솔루션 항목", "솔루션 항목", "{324BBD5D-D706-4C3D-A203-C04B20AD10B3}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\..\opt\opencv\build\x64\vc16\bin\opencv_world480.dll = ..\..\..\..\..\opt\opencv\build\x64\vc16\bin\opencv_world480.dll
+		..\..\..\..\..\opt\opencv\build\x64\vc16\bin\opencv_world480d.dll = ..\..\..\..\..\opt\opencv\build\x64\vc16\bin\opencv_world480d.dll
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0DE598B3-821D-424B-A37A-35892AD17E6D}.Debug|x64.ActiveCfg = Debug|x64
+		{0DE598B3-821D-424B-A37A-35892AD17E6D}.Debug|x64.Build.0 = Debug|x64
+		{0DE598B3-821D-424B-A37A-35892AD17E6D}.Release|x64.ActiveCfg = Release|x64
+		{0DE598B3-821D-424B-A37A-35892AD17E6D}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {210BC6BF-1BB4-4967-8027-C5F43C120E72}
+	EndGlobalSection
+EndGlobal
