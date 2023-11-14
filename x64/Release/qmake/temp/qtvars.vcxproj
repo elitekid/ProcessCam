@@ -34,7 +34,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|x64&apos;">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\SYNERG~1\AppData\Local\Temp\rh3cmzpv.dbm;C:\Qt\6.6.0\msvc2019_64\include;C:\Qt\6.6.0\msvc2019_64\include\QtQuick;C:\Qt\6.6.0\msvc2019_64\include\QtOpenGL;C:\Qt\6.6.0\msvc2019_64\include\QtWidgets;C:\Qt\6.6.0\msvc2019_64\include\QtMultimedia;C:\Qt\6.6.0\msvc2019_64\include\QtGui;C:\Qt\6.6.0\msvc2019_64\include\QtQmlModels;C:\Qt\6.6.0\msvc2019_64\include\QtQml;C:\Qt\6.6.0\msvc2019_64\include\QtQmlIntegration;C:\Qt\6.6.0\msvc2019_64\include\QtNetwork;C:\Qt\6.6.0\msvc2019_64\include\QtCore;C:\Users\SYNERG~1\AppData\Local\Temp\rh3cmzpv.dbm;/include;C:\Qt\6.6.0\msvc2019_64\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\SYNERG~1\AppData\Local\Temp\dzenfht1.l0r;C:\Qt\6.6.0\msvc2019_64\include;C:\Qt\6.6.0\msvc2019_64\include\QtQuick;C:\Qt\6.6.0\msvc2019_64\include\QtOpenGL;C:\Qt\6.6.0\msvc2019_64\include\QtWidgets;C:\Qt\6.6.0\msvc2019_64\include\QtMultimedia;C:\Qt\6.6.0\msvc2019_64\include\QtGui;C:\Qt\6.6.0\msvc2019_64\include\QtQmlModels;C:\Qt\6.6.0\msvc2019_64\include\QtQml;C:\Qt\6.6.0\msvc2019_64\include\QtQmlIntegration;C:\Qt\6.6.0\msvc2019_64\include\QtNetwork;C:\Qt\6.6.0\msvc2019_64\include\QtCore;C:\Users\SYNERG~1\AppData\Local\Temp\dzenfht1.l0r;/include;C:\Qt\6.6.0\msvc2019_64\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>-Zc:rvalueCast -Zc:inline -Zc:strictStrings -Zc:throwingNew -permissive- -Zc:__cplusplus -Zc:externConstexpr -utf-8 %(AdditionalOptions)</AdditionalOptions>
       <AssemblerListingLocation>.\</AssemblerListingLocation>
       <BrowseInformation>false</BrowseInformation>
@@ -86,10 +86,10 @@
     <ClCompile Include="qrc_qml.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\SYNERG~1\AppData\Local\Temp\rh3cmzpv.dbm\main.qml" />
+    <None Include="C:\Users\SYNERG~1\AppData\Local\Temp\dzenfht1.l0r\main.qml" />
     <CustomBuild Include="qml.qrc">
       <FileType>Document</FileType>
-      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|x64&apos;">qml.qrc;C:\Qt\6.6.0\msvc2019_64\bin\rcc.exe;C:\Users\SYNERG~1\AppData\Local\Temp\rh3cmzpv.dbm\main.qml;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|x64&apos;">qml.qrc;C:\Qt\6.6.0\msvc2019_64\bin\rcc.exe;C:\Users\SYNERG~1\AppData\Local\Temp\dzenfht1.l0r\main.qml;%(AdditionalInputs)</AdditionalInputs>
       <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|x64&apos;">C:\Qt\6.6.0\msvc2019_64\bin\rcc.exe -name qml --no-zstd qml.qrc -o qrc_qml.cpp</Command>
       <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|x64&apos;">RCC qml.qrc</Message>
       <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|x64&apos;">qrc_qml.cpp;%(Outputs)</Outputs>

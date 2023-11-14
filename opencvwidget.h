@@ -23,17 +23,17 @@ public slots:
 class ThreadedCamera {
 public:
     ThreadedCamera(int source) {
-        cap.open(source);
+        cap.open(source, cv::CAP_DSHOW);
         
         //codec = 0x47504A4D // MJPG
         //codec = 844715353.0 // YUY2
-        double codec = 1196444237.0;
+        double codec = 0x47504A4D;
 
         cap.set(CAP_PROP_FOURCC, codec);
         //cap.open("C:/Users/SYNERGY-USER/Downloads/abc/bear.mp4", cv::CAP_V4L2);
+        cap.set(CAP_PROP_FPS, 30);
         cap.set(CAP_PROP_FRAME_WIDTH, 3840);
         cap.set(CAP_PROP_FRAME_HEIGHT, 2160);
-        cap.set(CAP_PROP_FPS, 30);
         //std::cout << cap.get(CAP_PROP_FRAME_WIDTH) << std::endl;
         //std::cout << cap.get(CAP_PROP_FRAME_HEIGHT) << std::endl;
 

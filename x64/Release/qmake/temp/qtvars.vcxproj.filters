@@ -20,7 +20,7 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\SYNERG~1\AppData\Local\Temp\rh3cmzpv.dbm\main.qml">
+    <None Include="C:\Users\SYNERG~1\AppData\Local\Temp\dzenfht1.l0r\main.qml">
       <Filter>Resource Files</Filter>
     </None>
     <CustomBuild Include="qml.qrc">

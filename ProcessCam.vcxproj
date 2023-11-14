@@ -68,7 +68,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
   </PropertyGroup>
   <PropertyGroup Label="QtDeploy" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <QtDeploy>true</QtDeploy>
+    <QtDeploy>false</QtDeploy>
     <QtDeployDebugRelease>release</QtDeployDebugRelease>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -83,12 +83,12 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <Link>
-      <AdditionalLibraryDirectories>./x64/Release/lib</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>./x64/Release/lib;$(QT_LIBS)</AdditionalLibraryDirectories>
       <AdditionalDependencies>opencv_world480.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalOptions>/NODEFAULTLIB:msvcrt.lib %(AdditionalOptions)</AdditionalOptions>
     </Link>
     <ClCompile>
-      <AdditionalIncludeDirectories>./x64/Release/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(QTDIR)\include;./x64/Release/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
     </ClCompile>
   </ItemDefinitionGroup>
@@ -133,6 +133,9 @@
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="settingmanager.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Version.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">

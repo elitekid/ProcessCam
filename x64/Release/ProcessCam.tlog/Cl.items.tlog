@@ -2,6 +2,6 @@ C:\Users\SYNERGY-USER\source\repos\ProcessCam\camera.cpp;C:\Users\SYNERGY-USER\s
 C:\Users\SYNERGY-USER\source\repos\ProcessCam\CameraListModel.cpp;C:\Users\SYNERGY-USER\source\repos\ProcessCam\x64\Release\CameraListModel.obj
 C:\Users\SYNERGY-USER\source\repos\ProcessCam\main.cpp;C:\Users\SYNERGY-USER\source\repos\ProcessCam\x64\Release\main.obj
 C:\Users\SYNERGY-USER\source\repos\ProcessCam\x64\Release\rcc\qrc_qml.cpp;C:\Users\SYNERGY-USER\source\repos\ProcessCam\x64\Release\qrc_qml.obj
-C:\Users\SYNERGY-USER\source\repos\ProcessCam\x64\Release\moc\moc_opencvwidget.cpp;C:\Users\SYNERGY-USER\source\repos\ProcessCam\x64\Release\moc_opencvwidget.obj
 C:\Users\SYNERGY-USER\source\repos\ProcessCam\x64\Release\moc\moc_cameralistmodel.cpp;C:\Users\SYNERGY-USER\source\repos\ProcessCam\x64\Release\moc_cameralistmodel.obj
 C:\Users\SYNERGY-USER\source\repos\ProcessCam\x64\Release\moc\moc_settingmanager.cpp;C:\Users\SYNERGY-USER\source\repos\ProcessCam\x64\Release\moc_settingmanager.obj
+C:\Users\SYNERGY-USER\source\repos\ProcessCam\x64\Release\moc\moc_opencvwidget.cpp;C:\Users\SYNERGY-USER\source\repos\ProcessCam\x64\Release\moc_opencvwidget.obj
